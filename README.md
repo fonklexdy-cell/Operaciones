@@ -6,7 +6,10 @@
     <title>Operaciones</title>
     <style>
         body { font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 20px; }
-        .contenedor-pdf { width: 80%; height: 600px; margin: 20px auto; border: 2px solid #ccc; }
+        /* Se redujo el margen superior de 20px a 5px para que suba aún más */
+        .contenedor-pdf { width: 80%; height: 600px; margin: 5px auto 20px auto; border: 2px solid #ccc; }
+        /* Se eliminó espacio extra debajo del subtítulo */
+        p { margin-bottom: 5px; }
     </style>
 </head>
 <body>
